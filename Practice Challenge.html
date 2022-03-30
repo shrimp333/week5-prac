@@ -5,13 +5,85 @@
   body{
     font-family: Arial, sans-serif;
   }
+  div.header{
+    background-color: rgb(113, 160, 69);
+    color: white;
+    padding: 20px;
+    text-align: right;
+  }
+  .flex-container {
+  display: flex;
+  text-align: center;
+  justify-content: right;
+}
 
+.flex-container > div {
+  background-color: #ff8800; 
+  
+  display:inline-block; 
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 1px;
+  margin-right: 1px;
+  
+} 
+.main-flex{
+  display:flex; 
+}
+p.topdropper{
+margin: 10px;
+
+color: white;
+}
+.flex-Logo{
+  background-color: white;
+}
+.large-para{
+  padding-left: 35px;
+}
+.bottom-banner{
+  background-color: rgb(113, 160, 69);
+}
 </style>
 </head>
 <body>
-
-
-
+  <h1 style = "padding-left: 40px; color: #ff8800;">logo here</h1>
+  <p style = "padding-left: 70px;" >have your punchline here</p>
+        <div class = "flex-container">
+              <div>
+                <p class = "topdropper">Home</p>
+              </div>
+              <div>
+                <p class = "topdropper">About Us</p>
+              </div>
+              <div> 
+                <p class = "topdropper">Technology</p>
+              </div>
+              <div> 
+                <p class = "topdropper">Contact Us</p>
+              </div>
+        </div>
+  <div class = "header">
+  <h1 style = "font-size: 50px; margin: 10px;">inventions</h1>
+  <h2 style = "margin: 10px;">for a wired world</h2>
+  </div> 
+<div class="main-flex" style="margin-bottom: 200px;">
+    <div class = "large-para" style="width: 70%; padding-right: 20px;">
+      <h1 style = "color: #ff8800;">hello!</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    <div>
+      <h1 style = "color: #797979;">latest news</h1>
+      <h4 style = "color: #ff8800;">12/08/2006</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+</div>
+<div class = "bottom-banner">
+<footer >info@inventions.com</footer>
+</div>
 
 </body>
 </html>
